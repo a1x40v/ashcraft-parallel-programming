@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter1", "Chapter1", "{6E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundPing", "Chapter1\BackgroundPing\BackgroundPing.csproj", "{B7D091DF-AACF-4A9D-9371-3E247D29299D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncDataAcrossThreads", "Chapter1\SyncDataAcrossThreads\SyncDataAcrossThreads.csproj", "{1A2436E5-616A-45F4-BDF3-F0A1DA70B0F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{B7D091DF-AACF-4A9D-9371-3E247D29299D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7D091DF-AACF-4A9D-9371-3E247D29299D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7D091DF-AACF-4A9D-9371-3E247D29299D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2436E5-616A-45F4-BDF3-F0A1DA70B0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2436E5-616A-45F4-BDF3-F0A1DA70B0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2436E5-616A-45F4-BDF3-F0A1DA70B0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2436E5-616A-45F4-BDF3-F0A1DA70B0F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B7D091DF-AACF-4A9D-9371-3E247D29299D} = {6E26EB58-F44D-4423-A06C-B6784D3928F6}
+		{1A2436E5-616A-45F4-BDF3-F0A1DA70B0F5} = {6E26EB58-F44D-4423-A06C-B6784D3928F6}
 	EndGlobalSection
 EndGlobal
